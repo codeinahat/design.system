@@ -1,4 +1,20 @@
 /* * ------------------------------ */
+/* * CUSTOM PROPERTIES              */
+/* * ------------------------------ */
+
+
+/* // 
+// stored the colors as HSL values to be able to manipulat the
+// alpha as needed 
+// */
+:root {
+    --clr-dark: 230 35% 7%;
+    --clr-light: 231 77% 90%;
+    --clr-white: 0 0% 100%;
+}
+
+
+/* * ------------------------------ */
 /* * RESET                          */
 /* * ------------------------------ */
 
@@ -68,6 +84,8 @@ select {
 /* * UTILITIES CLASSES              */
 /* * ------------------------------ */
 
+
+/* * GENERAL */
 .flex {
     display: flex;
     gap: var(--gap, 1rem);    
@@ -79,5 +97,53 @@ select {
 }
 
 .container {
-    
+    padding: 0 2em;
+    max-width: 80rem;
+    margin: 0 auto;
 }
+
+/* // SCREEN READER ONLY */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 3rem;
+}
+
+/* * COLORS */
+
+.bg-dark {
+    background-color: hsl(var(--clr-dark));
+}
+
+.bg-light {
+    background-color: hsl(var(--clr-light));
+}
+
+.bg-white {
+    background-color: hsl(var(--clr-white));
+}
+
+
+.text-dark {
+    color: hsl(var(--clr-dark));
+}
+
+.text-light {
+    color: hsl(var(--clr-light));
+}
+
+.text-white {
+    color: hsl(var(--clr-white));
+}
+
