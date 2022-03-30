@@ -1,0 +1,77 @@
+/* * ------------------------------ */
+/* * RESET                          */
+/* * ------------------------------ */
+
+/* // 
+// Andy Bells modern CSS Reset 
+// https://piccalil.li/blog/a-modern-css-reset/ 
+// */
+
+
+/* // BOX SIZING */
+ *,
+ *::before,
+ *::after {
+     box-sizing: border-box;
+ }
+
+/* // Reset Margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+/* // set up body  */
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+
+/* // make images easier to work with */
+img, 
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* // make forms elemetns easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+
+/* // remove animation for people who've turned them off */
+/* // adds animations in only if somobody is allowing them */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* * ------------------------------ */
+/* * UTILITIES CLASSES              */
+/* * ------------------------------ */
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
