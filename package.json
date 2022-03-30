@@ -1,0 +1,26 @@
+{
+  "name": "@codeinahat/design-system",
+  "description": "{ CODE IN A HAT } Design system",
+  "version": "0.0.0",
+  "main": "index.css",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeinahat/design.system.git"
+  },
+  "keywords": [
+    "CSS",
+    "STYLE",
+    "FRONT",
+    "END"
+  ],
+  "author": "Richard Chapman Gomez",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/codeinahat/design.system/issues"
+  },
+  "homepage": "https://github.com/codeinahat/design.system#readme"
+}
