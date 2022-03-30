@@ -147,3 +147,15 @@ select {
     color: hsl(var(--clr-white));
 }
 
+#colors div.flex div {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.example-component {
+    background-color: hsl( var(--clr-light) / .2 );
+}
+
+.example-component-text {
+    color: hsl( var(--clr-light) / .2 );
+}
