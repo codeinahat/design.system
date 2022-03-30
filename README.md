@@ -1,4 +1,4 @@
-<img src="docs/header.svg" width="50px" height="50px"> `CODE IN A HAT`
+<img src="docs/header.svg" width="70px" height="70px"> `CODE IN A HAT`
 
 # DESIGN SYSTEM
 
