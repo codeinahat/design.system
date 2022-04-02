@@ -1,0 +1,53 @@
+doctype html
+html(lang="en")
+    
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE-edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="../index.css")
+    title Design System
+
+    body.bg-light
+        
+        div.container.bg-dark
+            h1 Design System 
+            
+            section#colors.text-white 
+                
+                h2 
+                    span.example-component-text 01 
+                    | colors
+                
+                div.flex(style="padding: 5rem 0;")
+                    
+                    div
+                        div.bg-dark.text-white(style="padding: 3rem 1rem 1rem; border: 1px solid white") #0B0D17
+                        p
+                            span.text-light RGB 
+                            | 11, 13, 23
+                        p
+                            span.text-light HEX 
+                            | 230
+                            sup 0
+                            |, 35%, 7%    
+                    
+                    div
+                        div.bg-light.text-dark(style="padding: 3rem 1rem 1rem; border: 1px solid white") #0B0D17
+                        p
+                            span.text-light RGB 
+                            | 208, 214, 249
+                        p
+                            span.text-light HEX 
+                            | 231
+                            sup 0
+                            |, 77%, 90%
+                    div
+                        div.bg-white.text-dark(style="padding: 3rem 1rem 1rem; border: 1px solid white") #FFFFFF
+                        p
+                            span.text-light RGB 
+                            | 255, 255, 255
+                        p
+                            span.text-light HEX 
+                            | 0
+                            sup 0
+                            |, 0%, 10%
